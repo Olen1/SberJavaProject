@@ -14,11 +14,7 @@ public class Square implements Shape {
     }
 
     public void setSide(double side) {
-        if (side > 0) {
             this.side = side;
-        } else {
-            System.out.println("Ошибка: сторона должна быть больше 0!");
-        }
     }
 
     @Override
@@ -36,9 +32,4 @@ public class Square implements Shape {
         return "Квадрат";
     }
 
-    @Override
-    public String toString() {
-        return String.format("%s{сторона=%.2f, площадь=%.2f, периметр=%.2f}",
-                getName(), side, getArea(), getPerimeter());
-    }
 }

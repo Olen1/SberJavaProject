@@ -22,12 +22,12 @@ public class Example2 {
             int value = 1;
             for (int i = 0; i < rows; i++) {
                 if (i % 2 == 0) {
-                    // Чётная строка (0, 2, 4...) - слева направо
+                    // Чётная строка
                     for (int j = 0; j < cols; j++) {
                         matrix[i][j] = value++;
                     }
                 } else {
-                    // Нечётная строка (1, 3, 5...) - справа налево
+                    // Нечётная строка
                     for (int j = cols - 1; j >= 0; j--) {
                         matrix[i][j] = value++;
                     }

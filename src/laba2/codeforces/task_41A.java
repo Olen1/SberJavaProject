@@ -5,7 +5,7 @@
 //        Вася перевел слово s с берляндского на бирляндский как t. Помогите ему: определите, правильно ли он выполнил перевод?
 
 
-package codeforces;
+package laba2.codeforces;
 
 import java.util.Scanner;
 

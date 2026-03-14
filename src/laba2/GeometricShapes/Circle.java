@@ -15,26 +15,22 @@ public class Circle implements Shape {
 
     private double radius;  // радиус круга
 
-    // Конструктор с валидацией
+
     public Circle(double radius) {
         setRadius(radius);
     }
 
-    // Getter
+
     public double getRadius() {
         return radius;
     }
 
-    // Setter с валидацией
+
     public void setRadius(double radius) {
-        if (radius > 0) {
             this.radius = radius;
-        } else {
-            System.out.println("Ошибка: радиус должен быть больше 0!");
-        }
     }
 
-    // Реализация методов интерфейса
+
     @Override
     public double getArea() {
         return Math.PI * radius * radius;  // S = πr²
@@ -50,9 +46,4 @@ public class Circle implements Shape {
         return "Круг";
     }
 
-    @Override
-    public String toString() {
-        return String.format("%s{радиус=%.2f, площадь=%.2f, периметр=%.2f}",
-                getName(), radius, getArea(), getPerimeter());
-    }
 }

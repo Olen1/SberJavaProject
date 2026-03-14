@@ -1,4 +1,4 @@
-package timus.task_1001;
+package laba1.timus.task_1001;
 import java.util.*;
 import java.util.Locale;
 

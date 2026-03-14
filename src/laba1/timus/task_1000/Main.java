@@ -1,5 +1,5 @@
 
-package timus.task_1000;
+package laba1.timus.task_1000;
 
 import java.util.Scanner;
 

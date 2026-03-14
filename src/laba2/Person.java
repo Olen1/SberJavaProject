@@ -13,7 +13,7 @@ public class Person {
     private int age;
     private String gender;
 
-// методы для получения
+
     public String getName() {
         return name;
     }
@@ -26,7 +26,7 @@ public class Person {
         return gender;
     }
 
-    // методы для установки значения
+
     public void setName(String name) {
         this.name = name;
     }
@@ -39,7 +39,7 @@ public class Person {
         this.gender = gender;
     }
 
-    // конструктор
+
     public Person(String name, int age, String gender) {
         this.name = name;
         this.age = age;

@@ -1,4 +1,4 @@
-package codeforces;
+package laba2.codeforces;
 
 //Мишка Лимак хочет стать самым большим медведем, ну, или хотя бы стать больше своего старшего брата Боба.
 //
@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class task_791A {
 
     public static void main(String[] args) {
-        // Создание объекта класса Scanner для считывания числа введённого в консоль
+
         Scanner y = new Scanner(System.in);
         System.out.println("Введите возраст братьев:");
         int a = y.nextInt();
