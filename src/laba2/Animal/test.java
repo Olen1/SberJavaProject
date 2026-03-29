@@ -10,20 +10,20 @@ public class test {
         bird bird1 = new bird("Гоша", 1, true);
 
         //  Вызываем общие методы (наследованные от Animal)
-        System.out.println("--- Общая информация ---");
+        System.out.println("Общая информация");
         dog.printInfo();
         cat.printInfo();
         bird.printInfo();
         bird1.printInfo();
 
-        System.out.println("\n--- Звуки животных ---");
+        System.out.println("\nЗвуки животных");
         dog.makeSound();
         cat.makeSound();
         bird.makeSound();
         bird1.makeSound();
 
         //  Уникальные методы подклассов
-        System.out.println("\n--- Уникальное поведение ---");
+        System.out.println("\nУникальное поведение");
         dog.fetchStick();
         cat.rubAgainstLeg();
         bird.tryToFly();

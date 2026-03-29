@@ -2,6 +2,7 @@ package laba2;
 
 public class listing2 {
 
+
     public static String getEncryptString(String encryptString, int shift) {
 
         char[] arrayChar = encryptString.toCharArray();

@@ -16,7 +16,7 @@ public class Rectangle {
     public int getLength() {
         return length;
     }
-
+    
     public int getWidth() {
         return width;
     }

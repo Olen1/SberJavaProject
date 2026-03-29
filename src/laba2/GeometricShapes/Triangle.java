@@ -15,7 +15,7 @@ public class Triangle implements Shape {
     public double getB() { return b; }
     public double getC() { return c; }
 
-    // Setter с проверкой существования треугольника
+    // Setter
     public void setSides(double a, double b, double c) {
             this.a = a;
             this.b = b;
