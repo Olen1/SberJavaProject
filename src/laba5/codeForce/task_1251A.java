@@ -12,9 +12,9 @@ public class task_1251A {
         while (t-- > 0) {
             String s = sc.next();
 
-            // Перебираем буквы от 'a' до 'z'
+            // Перебираем буквы от a до z
             String result = "abcdefghijklmnopqrstuvwxyz"
-                    .chars()  // поток символов 'a','b','c'...
+                    .chars()  // поток символов a,b,c...
                     .filter(c -> countChar(s, (char) c) % 2 == 1)  // оставляем с нечетным количеством
                     .mapToObj(c -> String.valueOf((char) c))
                     .collect(Collectors.joining());
@@ -24,8 +24,9 @@ public class task_1251A {
         sc.close();
     }
 
-    // Вспомогательный метод: сколько раз символ ch встречается в строке s
+    //  сколько раз символ ch встречается в строке s
     static long countChar(String s, char ch) {
+
         return s.chars().filter(c -> c == ch).count();
     }
 }
