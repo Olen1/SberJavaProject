@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<university>
+    <lesson>
+        <title>Программирование на Java</title>
+        <teacher>Иванов И.И.</teacher>
+        <hours>120</hours>
+        <semester>3</semester>
+    </lesson>
+    <lesson>
+        <title>Базы данных</title>
+        <teacher>Петрова А.С.</teacher>
+        <hours>80</hours>
+        <semester>2</semester>
+    </lesson>
+    <lesson>
+        <title>Веб-технологии</title>
+        <teacher>Сидоров В.Н.</teacher>
+        <hours>90</hours>
+        <semester>3</semester>
+    </lesson>
+    <lesson>
+        <title>Операционные системы</title>
+        <teacher>Козлов Д.М.</teacher>
+        <hours>100</hours>
+        <semester>4</semester>
+    </lesson>
+    <lesson>
+        <title>Компьютерные сети</title>
+        <teacher>Иванов И.И.</teacher>
+        <hours>80</hours>
+        <semester>4</semester>
+    </lesson>
+</university>
